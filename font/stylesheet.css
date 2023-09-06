@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'esamanru_light';
+    src: url('GongGothicOTFBold.eot');
+    src: url('GongGothicOTFBold.eot?#iefix') format('embedded-opentype'),
+        url('GongGothicOTFBold.woff2') format('woff2'),
+        url('GongGothicOTFBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'esamanru_medium';
+    src: url('GongGothicOTFLight.eot');
+    src: url('GongGothicOTFLight.eot?#iefix') format('embedded-opentype'),
+        url('GongGothicOTFLight.woff2') format('woff2'),
+        url('GongGothicOTFLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'esamanru_bold';
+    src: url('GongGothicOTFMedium.eot');
+    src: url('GongGothicOTFMedium.eot?#iefix') format('embedded-opentype'),
+        url('GongGothicOTFMedium.woff2') format('woff2'),
+        url('GongGothicOTFMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
