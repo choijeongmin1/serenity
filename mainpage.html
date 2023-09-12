@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1450">
+    <title>세레니티</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./font/stylesheet.css">
+
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./favicon/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div id="header">
+        <!--가운데정렬-->
+        <h1 class="logo">
+            <a href="#"><img src="./logo/logo.png" alt="로고이미지"></a>
+        </h1>
+        <div id="header_inner"> <!--header_inner-->
+            <div id="icon">
+                <ul id="btn">
+                    <li> <a href="#">
+                            <img src="./icon/icon_1.png" alt="아이콘1">
+                        </a>
+                    </li>
+                    <li> <a href="#"> <img src="./icon/icon_2.png" alt="아이콘2"> </a></li>
+                    <li> <a href="#"> <img src="./icon/icon_3.png" alt="아이콘3"></a></li>
+                </ul>
+            </div>
+            <div id="header_menu">
+                <ul id="gnb">
+                    <li><a href="#"> BRAND </a></li>
+                    <li><a href="#"> BEST </a></li>
+                    <li><a href="#"> EVENT </a></li>
+                    <li><a href="#"> COMMUNITY </a></li>
+                </ul>
+            </div>
+        </div><!--heqder_inner-->
+    </div> <!--header-->
+
+    <!-- Swiper -->
+    <div class="swiper banner">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./main_banner/hbdevent.jpg" alt="메인배너">
+            </div>
+            <div class="swiper-slide">
+                <img src="./main_banner/openevent.jpg" alt="오픈이벤트">
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div id="menu">
+        <p class="menu_text">
+            BEST MENU
+        </p>
+        <ul id="menu_inner">
+            <li> <a href="#">
+                    <img src="./menu/menu_diffuser.png" alt="diffuser">
+                </a>
+                <p class="mainmenu"> Diffuser</p>
+                <p class="submenu">
+                    340ML <br>
+                    34,000원
+                </p>
+            </li>
+            <li> <a href="#">
+                    <img src="./menu/menu_incense.png" alt="incense">
+                </a>
+                <p class="mainmenu"> Incense </p>
+                <p class="submenu">
+                    30개입 <br>
+                    27,000원
+                </p>
+            </li>
+            <li> <a href="#">
+                    <img src="./menu/menu_candle.png" alt="candle">
+                </a>
+                <p class="mainmenu"> Candle</p>
+                <p class="submenu">
+                    150ML <br>
+                    15,000원
+                </p>
+            </li>
+        </ul>
+    </div><!--menu-->
+
+    <div id="bn_img">
+        <img src="./main_banner/brand_banner.jpg" alt="brand_banner">
+    </div>
+
+    <div id="review">
+        <p class="review_text"> SNS REVIEW</p>
+        <ul id="ganzi">
+            <li>
+                <a href="#">
+                    <img src="./review/diffuser_1.png" alt="review1">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./review/diffuser_2.png" alt="review2">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./review/candle1.png" alt="review3">
+                </a>
+            </li>
+        </ul>
+    </div><!--review-->
+
+    <div id="footer">
+        <p>
+            <img src="./footer/footer_logo.jpg" alt=" 푸터로고">
+        </p>
+        <ul id="footer_inner">
+            <li><a href="#"> 최정민 </a></li>
+            <li> <a href="#"> TEL. 051)000-0000</a> </li>
+            <li> <a href="#"> 부산시 중구 중앙동 6가 중앙대로 26
+        </ul><!--footer_inner-->
+        <ul id="footer_text">
+            <li> <a href="#"> WEBSITE </a></li>
+            <li> <a href="#"> INSTAGRAM </a></li>
+            <li> <a href="#"> OFFLINE SHOP </a></li>
+        </ul><!--footer_text-->
+    </div><!--footer-->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".banner", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
