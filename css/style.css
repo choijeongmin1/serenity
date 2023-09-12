@@ -24,6 +24,7 @@ body {
     font-size: 24px;
     line-height: 30px;
     color: #000;
+    min-width: 1450px;
 }
 
 #header {
@@ -106,6 +107,19 @@ body {
 }
 
 #bn_img img {
+    width: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #fff;
+}
+
+.swiper-pagination span {
+    background-color: #fff;
+}
+
+.banner img {
     width: 100%;
 }
 
